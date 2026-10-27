@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="52wxpo6YNbgGYcP1qU_d" name="Page-1">
+        <mxGraphModel dx="802" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ABUFjR11uwRDJPi-D9fE-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Utilisateur" vertex="1">
+                    <mxGeometry height="120" width="140" x="60" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ABUFjR11uwRDJPi-D9fE-7" parent="ABUFjR11uwRDJPi-D9fE-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="id : int&lt;div&gt;nom : string&lt;/div&gt;&lt;div&gt;prenom : string&lt;/div&gt;&lt;div&gt;email : string&lt;/div&gt;&lt;div&gt;mdp : string&lt;/div&gt;&lt;div&gt;role : string&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="94" width="140" y="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="ABUFjR11uwRDJPi-D9fE-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+                    <mxGeometry height="120" width="140" x="350" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ABUFjR11uwRDJPi-D9fE-15" parent="ABUFjR11uwRDJPi-D9fE-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="id : int&lt;div&gt;nom : string&lt;/div&gt;&lt;div&gt;prenom : string&lt;/div&gt;&lt;div&gt;telephone : string&lt;/div&gt;&lt;div&gt;email : string&lt;/div&gt;&lt;div&gt;adresse : string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="94" width="140" y="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="ABUFjR11uwRDJPi-D9fE-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Réservation" vertex="1">
+                    <mxGeometry height="120" width="140" x="640" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ABUFjR11uwRDJPi-D9fE-19" parent="ABUFjR11uwRDJPi-D9fE-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="id : int&lt;div&gt;date_reserv : date&lt;/div&gt;&lt;div&gt;date_event : date&lt;/div&gt;&lt;div&gt;id_event : int&lt;/div&gt;&lt;div&gt;montant_total : décimal&lt;/div&gt;&lt;div&gt;statut : string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="94" width="140" y="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
